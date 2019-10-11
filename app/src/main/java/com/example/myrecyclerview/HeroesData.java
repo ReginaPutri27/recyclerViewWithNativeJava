@@ -16,19 +16,6 @@ public class HeroesData {
             "Tan Malaka"
     };
 
-    private static String[] heroRemarks = {
-            "Pahlawan Indonesia 1",
-            "Pahlawan Indonesia 2",
-            "Pahlawan Indonesia 3",
-            "Pahlawan Indonesia 4",
-            "Pahlawan Indonesia 5",
-            "Pahlawan Indonesia 6",
-            "Pahlawan Indonesia 7",
-            "Pahlawan Indonesia 8",
-            "Pahlawan Indonesia 9",
-            "Pahlawan Indonesia 10"
-    };
-
     private static String[] heroDetails = {
             "Salah seorang ulama dan khatib terkemuka di Masjid Besar Kasultanan Yogyakarta pada masa itu, dan ibu dari K.H. Ahmad Dahlan adalah puteri dari H. Ibrahim yang juga menjabat penghulu Kesultanan Ngayogyakarta Hadiningrat pada masa itu. KH. Ahmad Dahlan telah mempelopori kebangkitan ummat Islam untuk menyadari nasibnya sebagai bangsa terjajah yang masih harus belajar dan berbuat.",
             "Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922 – meninggal di Lubang Buaya, Jakarta, 1 Oktober 1965 pada umur 43 tahun) adalah komandan Tentara Nasional Indonesia Angkatan Darat, dan dibunuh oleh anggota Gerakan 30 September saat mencoba untuk menculik dia dari rumahnya.",
@@ -60,7 +47,6 @@ public class HeroesData {
         for (int position = 0; position < heroNames.length; position++) {
             Hero hero = new Hero();
             hero.setName(heroNames[position]);
-            hero.setRemarks(heroRemarks[position]);
             hero.setDetail(heroDetails[position]);
             hero.setPhoto(heroesImages[position]);
             list.add(hero);

@@ -40,7 +40,7 @@ public class ListHeroesAdapter extends RecyclerView.Adapter<ListHeroesAdapter.Ca
     @Override
     public void onBindViewHolder(@NonNull CategoryViewHolder categoryViewHolder, int position) {
         categoryViewHolder.tvName.setText(getListHeroes().get(position).getName());
-        categoryViewHolder.tvRemarks.setText(getListHeroes().get(position).getRemarks());
+        categoryViewHolder.tvRemarks.setText(getListHeroes().get(position).getDetail());
 
         Glide.with(context)
                 .load(getListHeroes().get(position).getPhoto())
