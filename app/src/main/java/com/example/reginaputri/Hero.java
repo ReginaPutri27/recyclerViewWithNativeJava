@@ -1,4 +1,4 @@
-package com.example.myrecyclerview;
+package com.example.reginaputri;
 
 import android.os.Parcel;
 import android.os.Parcelable;

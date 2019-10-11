@@ -1,4 +1,4 @@
-package com.example.myrecyclerview;
+package com.example.reginaputri;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
