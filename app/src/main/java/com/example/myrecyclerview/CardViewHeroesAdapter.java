@@ -32,7 +32,7 @@ public class CardViewHeroesAdapter extends RecyclerView.Adapter<CardViewHeroesAd
     @NonNull
     @Override
     public CardViewViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_cardview_president, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_cardview_heroes, viewGroup, false);
         return new CardViewViewHolder(view);
     }
 

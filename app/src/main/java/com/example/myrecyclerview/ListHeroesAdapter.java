@@ -33,7 +33,7 @@ public class ListHeroesAdapter extends RecyclerView.Adapter<ListHeroesAdapter.Ca
     @NonNull
     @Override
     public CategoryViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View itemRow = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_row_president, viewGroup, false);
+        View itemRow = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_row_heroes, viewGroup, false);
         return new CategoryViewHolder(itemRow);
     }
 
