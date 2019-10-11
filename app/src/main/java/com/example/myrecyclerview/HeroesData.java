@@ -8,12 +8,25 @@ public class HeroesData {
             "Ahmad Yani",
             "Sutomo",
             "Gatot Soebroto",
-            "Ki Hadjar Dewantarai",
+            "Ki Hadjar Dewantara",
             "Mohammad Hatta",
             "Soedirman",
             "Soekarno",
             "Soepomo",
             "Tan Malaka"
+    };
+
+    private static String[] heroRemarks = {
+            "Pahlawan Indonesia 1",
+            "Pahlawan Indonesia 2",
+            "Pahlawan Indonesia 3",
+            "Pahlawan Indonesia 4",
+            "Pahlawan Indonesia 5",
+            "Pahlawan Indonesia 6",
+            "Pahlawan Indonesia 7",
+            "Pahlawan Indonesia 8",
+            "Pahlawan Indonesia 9",
+            "Pahlawan Indonesia 10"
     };
 
     private static String[] heroDetails = {
@@ -47,6 +60,7 @@ public class HeroesData {
         for (int position = 0; position < heroNames.length; position++) {
             Hero hero = new Hero();
             hero.setName(heroNames[position]);
+            hero.setRemarks(heroRemarks[position]);
             hero.setDetail(heroDetails[position]);
             hero.setPhoto(heroesImages[position]);
             list.add(hero);

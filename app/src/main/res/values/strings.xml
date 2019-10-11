@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">MyRecyclerView</string>
-    <string name="list">List</string>
-    <string name="grid">Grid</string>
-    <string name="with_cardview">with CardView</string>
+    <string name="app_name">RecyclerView</string>
+    <string name="list">Mode List (Regina Putri)</string>
+    <string name="grid">Mode Grid (Regina Putri)</string>
+    <string name="with_cardview">Mode CardView (Regina Putri)</string>
     <string name="favorite">favorite</string>
     <string name="share">share</string>
 </resources>
